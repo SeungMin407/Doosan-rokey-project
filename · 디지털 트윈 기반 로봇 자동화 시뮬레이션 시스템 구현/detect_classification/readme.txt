@@ -37,4 +37,9 @@ python3 -m pip install pandas
 # matplotlib 호환 버전 설치
 pip uninstall matplotlib matplotlib-inline -y
 pip install matplotlib==3.7.2 matplotlib-inline==0.1.6
+-----------------------------------------------------------
+--------------------------------------------------------------
+1. execute sub.py
 
+source /opt/ros/humble/setup.bash
+python3 /home/rokey/Desktop/cooperate_3/detect_classification/sub.py

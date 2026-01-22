@@ -15,9 +15,9 @@ bridge = CvBridge()
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # work space
-save_dir = os.path.expanduser('~/Desktop/detect_classification/rgb_images')
+save_dir = os.path.expanduser('./rgb_images')
 os.makedirs(save_dir, exist_ok=True)
-work_dir = os.path.expanduser('~/Desktop/detect_classification')
+work_dir = os.path.expanduser('.')
 os.makedirs(work_dir, exist_ok=True)
 os.chdir(work_dir)
 
