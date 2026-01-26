@@ -8,10 +8,6 @@ Python for VSCode
 
 Python Extension Pack
 
-Jupyter
-
-Jupyter Keymap
-
 SQLite Viewer
 설치 후 반드시 활성화(enable) 해야 합니다.
 -------------------------------------------------------------
